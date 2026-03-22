@@ -31,10 +31,10 @@
   "author": "felixlechat",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felixlechat/poutine-ipsum.git"
+    "url": "git+https://github.com/FelixLeChat/poutine-ipsum.git"
   },
-  "homepage": "https://github.com/felixlechat/poutine-ipsum#readme",
-  "bugs": "https://github.com/felixlechat/poutine-ipsum/issues",
+  "homepage": "https://github.com/FelixLeChat/poutine-ipsum#readme",
+  "bugs": "https://github.com/FelixLeChat/poutine-ipsum/issues",
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
