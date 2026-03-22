@@ -1,6 +1,6 @@
 {
   "name": "poutine-ipsum",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate Lorem Ipsum-like placeholder text about poutine in French or English.",
   "type": "module",
   "main": "src/index.js",
@@ -31,7 +31,7 @@
   "author": "felixlechat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixlechat/poutine-ipsum.git"
+    "url": "git+https://github.com/felixlechat/poutine-ipsum.git"
   },
   "homepage": "https://github.com/felixlechat/poutine-ipsum#readme",
   "bugs": "https://github.com/felixlechat/poutine-ipsum/issues",
