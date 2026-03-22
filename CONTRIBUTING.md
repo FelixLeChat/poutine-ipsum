@@ -5,7 +5,7 @@ Thanks for your interest in contributing!
 ## Getting started
 
 ```bash
-git clone https://github.com/felixlechat/poutine-ipsum.git
+git clone https://github.com/FelixLeChat/poutine-ipsum.git
 cd poutine-ipsum
 npm install
 ```
@@ -33,8 +33,8 @@ The word lists live in `src/dictionaries.js`, split into `classic` (traditional 
 
 ## Reporting bugs
 
-Use the [bug report template](https://github.com/felixlechat/poutine-ipsum/issues/new?template=bug_report.yml) on GitHub Issues.
+Use the [bug report template](https://github.com/FelixLeChat/poutine-ipsum/issues/new?template=bug_report.yml) on GitHub Issues.
 
 ## Suggesting new features
 
-Use the [feature request template](https://github.com/felixlechat/poutine-ipsum/issues/new?template=feature_request.yml) on GitHub Issues.
+Use the [feature request template](https://github.com/FelixLeChat/poutine-ipsum/issues/new?template=feature_request.yml) on GitHub Issues.

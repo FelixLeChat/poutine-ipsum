@@ -1,6 +1,6 @@
 # poutine-ipsum
 
-[![CI](https://github.com/felixlechat/poutine-ipsum/actions/workflows/ci.yml/badge.svg)](https://github.com/felixlechat/poutine-ipsum/actions/workflows/ci.yml)
+[![CI](https://github.com/FelixLeChat/poutine-ipsum/actions/workflows/ci.yml/badge.svg)](https://github.com/FelixLeChat/poutine-ipsum/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/poutine-ipsum)](https://www.npmjs.com/package/poutine-ipsum)
 [![license](https://img.shields.io/npm/l/poutine-ipsum)](./LICENSE)
 
