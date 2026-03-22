@@ -1,6 +1,6 @@
 {
   "name": "poutine-ipsum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate Lorem Ipsum-like placeholder text about poutine in French or English.",
   "type": "module",
   "main": "src/index.js",
