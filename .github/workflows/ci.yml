@@ -18,6 +18,7 @@ jobs:
       - run: npm run lint
 
   test:
+    name: test (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
     strategy:
       matrix:

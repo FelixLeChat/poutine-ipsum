@@ -1,5 +1,9 @@
 # poutine-ipsum
 
+[![CI](https://github.com/felixlechat/poutine-ipsum/actions/workflows/ci.yml/badge.svg)](https://github.com/felixlechat/poutine-ipsum/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/poutine-ipsum)](https://www.npmjs.com/package/poutine-ipsum)
+[![license](https://img.shields.io/npm/l/poutine-ipsum)](./LICENSE)
+
 `poutine-ipsum` is an npm library that generates Lorem Ipsum-like placeholder text about poutine.
 
 It mimics the API style of the most-starred comparable JavaScript lorem library (`knicklabs/lorem-ipsum.js`) by exposing:
@@ -47,6 +51,7 @@ console.log(poutine.generateParagraphs(3));
 ### Class Options
 
 - `language`: `"en" | "fr"` (default: `"fr"`)
+- `vocabulary`: `"classic" | "extended" | "all"` (default: `"all"`) — `"classic"` uses only traditional poutine terms (fries, gravy, curds, …), `"extended"` uses only toppings and variations (smoked meat, foie gras, merguez, …), `"all"` combines both
 - `sentencesPerParagraph.min`: number (default: `3`)
 - `sentencesPerParagraph.max`: number (default: `7`)
 - `wordsPerSentence.min`: number (default: `5`)
@@ -75,6 +80,7 @@ console.log(text);
 - `units`: `"word(s)" | "sentence(s)" | "paragraph(s)"` (default: `"sentences"`)
 - `format`: `"plain" | "html"` (HTML wraps paragraphs in `<p>` tags)
 - `language`: `"en" | "fr"` (default: `"fr"`)
+- `vocabulary`: `"classic" | "extended" | "all"` (default: `"all"`)
 - `paragraphLowerBound`: min sentences per paragraph (default: `3`)
 - `paragraphUpperBound`: max sentences per paragraph (default: `7`)
 - `sentenceLowerBound`: min words per sentence (default: `5`)
@@ -99,12 +105,27 @@ poutineIpsum({ count: 1, units: "sentences" });
 // "Poutine ipsum dolor sit amet ..."
 ```
 
+Classic vocabulary only:
+
+```js
+poutineIpsum({ count: 1, units: "sentences", vocabulary: "classic" });
+// "Poutine ipsum dolor sit amet crispy golden cheddar ..."
+```
+
 HTML paragraphs:
 
 ```js
 poutineIpsum({ count: 2, units: "paragraphs", format: "html" });
 // "<p>...</p>\n<p>...</p>"
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## License
+
+[MIT](./LICENSE)
 
 ## Author
 
