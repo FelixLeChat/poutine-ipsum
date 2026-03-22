@@ -1,0 +1,46 @@
+{
+  "name": "poutine-ipsum",
+  "version": "0.1.0",
+  "description": "Generate Lorem Ipsum-like placeholder text about poutine in French or English.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "poutine",
+    "generator"
+  ],
+  "author": "felixlechat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixlechat/poutine-ipsum.git"
+  },
+  "homepage": "https://github.com/felixlechat/poutine-ipsum#readme",
+  "bugs": "https://github.com/felixlechat/poutine-ipsum/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "typescript": "^5.9.3"
+  }
+}
