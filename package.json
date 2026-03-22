@@ -15,7 +15,12 @@
     "src"
   ],
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
   },
   "keywords": [
     "lorem",
@@ -30,6 +35,10 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "typescript": "^5.9.3"
   }
 }
